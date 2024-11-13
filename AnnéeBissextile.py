@@ -43,3 +43,5 @@ while choix!=3:
     print("Pour connaitre toues les années bissextile entre deux dates, tapez 2.")
     print("Pour quiter le programme, tapez 3.")
     choix = int(input("Faites votre choix : "))
+
+    print("au revoir")

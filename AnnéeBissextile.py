@@ -3,14 +3,14 @@ from rich import print
 
 
 # Fonction pour savoir si une année est bissextile ou non
-def bissextile(annee):
+def bissextile(annee: int) -> bool:
     if annee % 4 == 0 and annee % 100 != 0 or annee % 400 == 0:
         return True
     return False
 
 
 # Fonction d'affichage
-def affichage(annee):
+def affichage(annee: int) -> str:
     if bissextile(annee):
         print(f"[green]L'année {annee} est bissextile[/green]")
     else:
